@@ -1,15 +1,13 @@
-/*const open = document.getElementById('open');
-const modal_container = document.getElementById('modal_container');
-const close = document.getElementById('close');
+document.getElementById("openModal").addEventListener("click", function() {
+    document.getElementById("modal").style.display = "block";
+  });
+  
+  document.getElementsByClassName("close")[0].addEventListener("click", function() {
+    document.getElementById("modal").style.display = "none";
+  });
 
-open.addEventListener('click', () => {
-    modal_container.classList.add('show');
-});
+/* Hamburger Selector */
 
-close.addEventListener('click', () => {
-    modal_container.classList.remove('show');
-});
-*/
 const navToggle = document.querySelector('.nav-toggle');
 const navLinks = document.querySelectorAll('.nav__link');
 
