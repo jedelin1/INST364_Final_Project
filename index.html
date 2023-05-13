@@ -20,7 +20,7 @@
             </button>
             <nav class="nav">
                 <ul class="nav__list">
-                    <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
                     <li class="nav__item"><a href="#" class="nav__link">Write Up</a></li>
                 </ul>
             </nav>
@@ -35,7 +35,7 @@
         </section>
 
         <!--Introduction-->
-        <section class="introduction" id="projintro">
+        <section class="introduction">
             <div class="projintro">
                 <div class="projintroduction">
                     <p>
@@ -45,23 +45,35 @@
                         for them every year, would you be one of them?
                     </p>
 
-
-                    <button id="open">
-                        Click me please
-                    </button>
+                    <button class="button open-button">Let's see</button>
                     
-                    <div class="modal-container" id="modal_container">
-                        <div class="modal">
-                            <h1>
-                                Modals are cool
-                            </h1>
-                            <p>This is a test for now</p>
-                            <button id="close">
-                                Close me
-                            </button>
-                        </div>
-                    </div>
+                    <dialog class="modal" id="modal">
+                        <p>From: "SunTrust"secure@suntrust.com, To: Me, Subject: Account Temporarily Suspended, Date: 05-12-2023</p>
+
+                        <p>Dear SunTrust Client,</p>
+                        <p>As part of our security  measures, we regularly screen activity in the
+                            suntrust Online Banking System. We recently contacted you after noticing
+                            on your online account, which is been accessed unusually.
+                        </p>
+
+                        <p>To view your Account,</p>
+                        <p>1. Visit <a href="https://github.com/JacobEdelin/jacobedelin.github.io/tree/main/Portfolio" class="fake-link">suntrust.com</a>,
+                            2. Sign on to Online Banking with your user ID and password,
+                            3. Select your account</p>
+
+                        <p>We appreciate your business and are comitted to helping you reach your financial goals.
+                            call us at 800-SUNTRUST (786-8789), or stop by your local branch to learn more about our
+                            helpful products and services.
+                        </p>
+                        <p>Thank you for banking with SunTrust.</p>
+                        <p>Sincerely,</p>
+                        <p>SunTrust Customer Care</p>
+                    <button class="button close-button">Close email</button>
+                </dialog>
+
+                    
                 </div>
+            </div>
         </section>
 
         <script src="index.js"></script>
